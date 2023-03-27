@@ -1,0 +1,83 @@
+.wordBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heading {
+  background-color: #ffc8dd;
+}
+.characterBox {
+  display: flex;
+  justify-content: center;
+  width: 3rem;
+  margin: 0.5rem;
+  height: 4rem;
+  background-color: #ffafcc;
+  border-radius: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.correct {
+  background-color: rgb(28, 227, 28);
+}
+
+.incorrect {
+  background-color: red;
+}
+
+.guessedChar {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.alphabet {
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #cdb4db;
+  border-radius: 0.3rem;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.modalButton {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 20%;
+  background-color: #ffc8dd;
+}
+
+.modalBody {
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: #ffc8dd;
+}
+
+.modalList li {
+  margin-bottom: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+}
+
+.hangmanImg {
+  width: 20%;
+}
+
+.guesses {
+  font-size: 2rem;
+}
